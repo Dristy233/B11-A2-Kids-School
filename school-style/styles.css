@@ -9,8 +9,8 @@
 }
  body{
   background-image: url(../bg.png);
-  height: 3092px;
-
+  height: auto;
+   width: auto;
  
  }
 .navber{
@@ -216,7 +216,18 @@ color: #8700FF;
   box-shadow: 0px 0px 1px 0px ;
   border-radius: 16px;
   margin-right: 18px;
+ 
   
+}
+.head-2{
+ font-weight: 700;
+ font-weight: 1.5px;  
+ color: #000000;
+}
+.head-p1{
+   font-weight: 500;
+   font-size: .95rem;
+   color: #666666;
 }
 .kids{
    display: flex;
@@ -236,13 +247,14 @@ color: #8700FF;
    
 }
 .story{
-  height: 301.61px;
-  width: 290.69px;
-  gap: 19px 19px; 
-  border-radius: 16px 16px;
-  background-color: #FFFFFF;
-  box-shadow: 0px 0px 1px 0px ;
-}
+   height: 301.61px;
+   width: 290.69px;
+   gap: 19px 19px; 
+   border-radius: 16px 16px;
+   background-color: #FFFFFF;
+   box-shadow: 0px 0px 1px 0px ;}
+
+
 .img-story{
    border-radius: 16px 16px 0px  0px ;
 
@@ -250,8 +262,40 @@ color: #8700FF;
 .date{
    width: 174.51px;
    height: 47.93px;
-   background-color: #5D58EF;
+   background-color: #3CD8E8;
+   border-radius: 47.93px;
+   color: #FFFFFF;
 }
+.view-btn{
+  background-color: black; 
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 1.25rem;
+  border-radius: 12px;
+
+}
+.view{
+ margin: 80px auto;
+   width: 197px;
+   height: 50px;
+  align-items: center;
+  display: grid;
+
+}
+.footer{
+
+}
+.footer-sec1{
+
+}
+.footer-sec2{
+
+}
+.footer-sec3{
+   
+}
+
+
 
 
 @media screen and (max-width:576px) {
@@ -261,20 +305,19 @@ color: #8700FF;
    .About,
    .Home,
    .main-btn,
-   .brand{
+   .brand,
+   .first-story
+   {
       display: none;
    }
    .sub-head{
     
       flex-direction: column;
     }
-
-    }
-   
-   
-
-
-
+   .story{
+      flex-direction: column;
+      grid-template-columns: repeat(2, 2fr);
+   }
    /* .hero-kids, */
    .banner{
   flex-direction: column;
