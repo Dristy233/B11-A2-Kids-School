@@ -9,7 +9,8 @@
 }
  body{
   background-image: url(../bg.png);
-  height: 100vh;
+  height: 3092px;
+
  
  }
 .navber{
@@ -77,20 +78,223 @@ font-size: 1.25rem;
 .banner{
    display: flex;
    margin: 20px 140px;
-   text-align: justify;
+   
    align-items: center;
 }
-.banner-title{
+.h1{
+color: #FEA301;
+}
+.h2{
+   color: #01ACFD;
+}
 
+.hero-kids{
+   height: 575px;
+   width: 468.61px;
+   gap: 0 50px;
+}
+.banner-title{
+ font-weight: 700;
+ font-size: 3.5rem;
 }
 .banner-contend{
+color: #111111;
+font-weight: 400;
+font-size: 2.25rem;
 
 }
 .bg-btn{
+  
+   background-color:  #111111;
+  color: white;
+   border-radius: 12px;
+   font-weight: 700;
+   font-size: 1.25rem;
+   width: 197px;
+   height: 50px;
 
+}
+.main-head{
+
+}
+.head-tag{
+ display: grid;
+ text-align: center;
+ margin: 80px, 0 auto; 
+}
+.sub-head{
+   display: flex;
+   grid-template-columns: repeat(3, 1fr);
+   margin: 80px 60px auto;
+  gap: 28px;
+ justify-content: center;
+  
+}
+.card{
+ height: 476.78px;
+ width: 367.8px;
+ background-color: #DEF5FF;
+ text-align: center;
+ border-radius: 18.86px;
+ background: linear-gradient(#DEF5FF, #FFFFFF 40%);
+ box-shadow: 0px 0px 1px 0px ;
+}
+.card1{
+   height: 476.78px;
+   width: 367.8px;
+   background-color: #FFF4DC;
+   border-radius: 18.86px;
+   text-align: center;
+   background: linear-gradient(#FFF4DC, #FFFFFF 40%);
+   box-shadow: 0px 0px 1px 0px ;
+
+  }
+  .card2{
+   height: 476.78px;
+   width: 367.8px;
+   background-color: rgba(242, 232, 255, 1);
+   border-radius: 18.86px;
+   text-align: center;
+   background: linear-gradient( #EEE1FF, #FFFFFF 40%);
+   box-shadow: 0px 0px 1px 0px ;
+   
+  }
+.card-img{
+ margin-top: 28px;
+ height: 136.76px;
+ width: 136.76px;
+}
+.card-h{
+font-weight: 700;
+font-size: 1.53rem;
+color: rgba(32, 32, 32, 1);
+gap: 33px;
+}
+.card-p{
+text-align: justify;
+text-align: center;
+color: rgba(128, 128, 128, 1);
+ font-weight: 500;
+ font-size: 0.94rem;
+ gap: 33px;
+}
+
+.list1, .list2,.list3{
+ list-style: none;
+
+}
+.list1{
+   color: #64C8FF;
+}
+.list2{
+color: #F0AA00;
+}
+.list3{
+color: #8700FF;
+}
+.fa-circle-chevron-left{
+   height: 60px;
+   width: 60px;
+   background-color: #F0AA00;
+}
+.fa-circle-chevron-left{
+
+}
+.fa-solid{
+ display: contents;
+}
+.head-story{
+   text-align: center;
+  margin: 80px auto;
+
+}
+.first-story{
+  height: 630.52px;
+  width: 540.27px;
+  text-align: center;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 1px 0px ;
+  border-radius: 16px;
+  margin-right: 18px;
+  
+}
+.kids{
+   display: flex;
+    justify-content: center;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+.Our-Stories{
+   margin: 80px auto;
+   background: linear-gradient( #FFFFFF, #FFF0D6 30%);
+ 
+}
+.kids-story{
+   grid-template-columns: repeat(2, 2fr);
+   display: grid;
+   gap: 19px 19px; 
+   
+}
+.story{
+  height: 301.61px;
+  width: 290.69px;
+  gap: 19px 19px; 
+  border-radius: 16px 16px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 1px 0px ;
+}
+.img-story{
+   border-radius: 16px 16px 0px  0px ;
+
+}
+.date{
+   width: 174.51px;
+   height: 47.93px;
+   background-color: #5D58EF;
 }
 
 
 @media screen and (max-width:576px) {
 
+   .Admission,
+   .Facilities,
+   .About,
+   .Home,
+   .main-btn,
+   .brand{
+      display: none;
+   }
+   .sub-head{
+    
+      flex-direction: column;
+    }
+
+    }
+   
+   
+
+
+
+   /* .hero-kids, */
+   .banner{
+  flex-direction: column;
+
+  
+   }
+   .bg-btn,
+   .banner-contend,
+   .banner-title{
+    flex-direction: column;
+    grid-template-columns: repeat 1fr;
+
+   }
+   .hero-kids{
+    flex-direction: column;
+   
+         }
+      }
+               
+
+@media screen and (max-width:600px) {
+    
 }
